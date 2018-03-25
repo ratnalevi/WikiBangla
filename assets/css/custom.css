@@ -1,0 +1,45 @@
+.login-logo {
+    margin-top: 20%;
+}
+.page-header {
+    border-bottom: 1px solid #eee;
+    margin: 20px 0;
+    padding-bottom: 5px;
+}
+.required {
+    color: red;
+}
+.padding-top-5{
+	padding-top: 5px;
+}
+.durationpicker-container {
+    background-color: white;
+    border: 1px solid darkgrey;
+    display: inline-block;
+    width: auto;
+}
+.durationpicker-duration {
+    width: 50px;
+    display: inline-block;
+    border: none;
+    padding-left: 10%;
+    text-align: right;
+}
+.durationpicker-label {
+    display: inline-block;
+}
+
+.panel-heading {
+    min-height: 40px;
+}
+.panel-heading .caption {
+    float: left;
+    display: inline-block;
+}
+.panel-heading .tools {
+    float: right;
+    display: inline-block;
+}
+.panel-heading .tools a {
+    color: #fff;
+}
