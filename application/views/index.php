@@ -16,7 +16,13 @@
 
 	<meta property="fb:pages" content="934737806646344" />
 
-	<link rel="shortcut icon" href="assets-front/images/fav-icon.ico">
+    <?php if (sizeof($_GET) == 0) { ?>
+        <link rel="amphtml" href="<?= $data['og_url'] . '?amp=1' ?>"/>
+    <?php } else { ?>
+        <link rel="amphtml" href="<?= $data['og_url'] . '&amp=1' ?>"/>
+    <?php } ?>
+
+    <link rel="shortcut icon" href="assets-front/images/fav-icon.ico">
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
