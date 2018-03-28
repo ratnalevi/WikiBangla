@@ -3,8 +3,6 @@ class Front_model extends CI_Model {
 	
 	function __construct() {
 		parent::__construct();
-		
-		
 	}
 	
 	public function featured_post($limit,$offset,$type=''){	

@@ -76,8 +76,8 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'wikibang_db',
-	'password' => 'eH_(o(Z6=}bh',
+	'username' => 'root',
+	'password' => 'White1@2',
 	'database' => 'wikibang_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
